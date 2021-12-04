@@ -15,8 +15,8 @@ when isMainModule:
     let input = readFile("input.txt")
     let lines = splitLines(input)
 
-    echo "part1 result:" & getResultPart1(lines)
-    echo "part2 result:" & getResultPart2(lines)
+    echo "part1 result: " & $getResultPart1(lines)
+    echo "part2 result: " & $getResultPart2(lines)
 """
 
 createDir(joinPath(baseName,"src"))
