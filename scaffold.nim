@@ -1,4 +1,5 @@
 import std/os
+import std/sequtils
 
 let baseName = paramStr(1)
 
